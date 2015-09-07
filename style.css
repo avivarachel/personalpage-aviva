@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: purple;
+    text-align: center;
+    background-image: url(http://placekitten.com/g/1000/1001);
+    background-size: cover;
+    background-position: center;
+}
+#profile-pic {
+    border-radius: 50%;
+}
