@@ -21,6 +21,7 @@ h1:hover {
     
 }
 
+
 p {
     font-family: Indie Flower;
 }
@@ -31,9 +32,22 @@ p {
     border: 10px solid;
     
 }
+.fade {
+   opacity: 7;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
 
 #Van2 {
     height: 500px;
     width: 400px;
    border: 10px solid;
 }
+div.container {
+      display:inline-block;
+    }
