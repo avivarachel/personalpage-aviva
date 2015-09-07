@@ -9,13 +9,15 @@ body {
 }
 h1:hover {
     background-color: black;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 }
 
 #profile-pic {
     
     height: 300px;
-    width: 300px;
-    border: 3px solid white;
+    border: 10px solid white;
     
 }
 
@@ -24,11 +26,14 @@ p {
 }
 
 #Van {
-    height: 100px
-    width: 100px;
+    height: 500px;
+    width: 400px;
+    border: 10px solid;
     
 }
 
 #Van2 {
-   float: right;
+    height: 500px;
+    width: 400px;
+   border: 10px solid;
 }
