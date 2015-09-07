@@ -6,6 +6,8 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url(http://webdesigntunes.com/wp-content/uploads/2013/06/white-wood.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1:hover {
     background-color: black;
